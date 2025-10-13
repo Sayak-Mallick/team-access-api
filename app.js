@@ -12,11 +12,6 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
-var to;
-var subject;
-var body;
-var path;
-
 var Storage = multer.diskStorage({
     destination:function (req,file, callback){
         callback(null,'./email-templates')
@@ -74,7 +69,7 @@ app.post('/sendemail', (req,res,) =>{
                                 secure: false,
                                 auth: {
                                     user: 'sayakmallickkv@gmail.com',
-                                    pass: 'sbvgvunhzabwzbks',
+                                    pass: 'drlkspzjwmgauund',
                                 }
                             })
 
@@ -119,5 +114,5 @@ app.post('/sendemail', (req,res,) =>{
 
 
 app.listen(port, () => {
-    console.log(`http://localhost:${port}`);
+    console.log(`🚀 Server is running at: http://localhost:${port}`);
 })
