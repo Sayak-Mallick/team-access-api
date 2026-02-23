@@ -1,0 +1,31 @@
+{
+  "name": "email-integration-attachments",
+  "version": "1.0.0",
+  "description": "This is used by Soliva Technologies to send Emails within the Employees",
+  "homepage": "https://github.com/Sayak-Mallick/node-email-integration-attachments#readme",
+  "bugs": {
+    "url": "https://github.com/Sayak-Mallick/node-email-integration-attachments/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sayak-Mallick/node-email-integration-attachments.git"
+  },
+  "license": "ISC",
+  "author": "Sayak Mallick",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^8.0.1",
+    "nodemon": "^3.1.14"
+  }
+}
